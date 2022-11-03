@@ -7,10 +7,10 @@
 Console.WriteLine("Введите цифру, обозначающую день недели: ");
 int Number = Convert.ToInt32(Console.ReadLine());
 
-if ( Number == 6 | Number == 7) {
+if ( Number == 6 | Number == 7 ) {
     Console.WriteLine("Выходной день");
 }
-else if ( Number < 1 | Number >7) {
+else if ( Number < 1 | Number > 7 ) {
     Console.WriteLine("Это не день недели");
 }
 else {
